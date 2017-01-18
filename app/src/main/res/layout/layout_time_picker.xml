@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <com.yulin.WheelViewDemo.view.WheelView
+        android:id="@+id/app_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        app:itemNumber="5"
+        app:lineColor="@color/colorPrimary"
+        app:maskHight="32dp"
+        app:noEmpty="true"
+        app:normalTextColor="@color/gray_600"
+        app:normalTextSize="14sp"
+        app:selectedTextColor="@color/colorPrimary"
+        app:selectedTextSize="18sp"
+        app:unitHight="50dp" />
+
+    <com.yulin.WheelViewDemo.view.WheelView
+        android:id="@+id/app_hour"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        app:itemNumber="5"
+        app:lineColor="@color/colorPrimary"
+        app:maskHight="32dp"
+        app:noEmpty="true"
+        app:normalTextColor="@color/gray_600"
+        app:normalTextSize="14sp"
+        app:selectedTextColor="@color/colorPrimary"
+        app:selectedTextSize="18sp"
+        app:unitHight="50dp" />
+
+    <com.yulin.WheelViewDemo.view.WheelView
+        android:id="@+id/app_min"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        app:itemNumber="5"
+        app:lineColor="@color/colorPrimary"
+        app:maskHight="32dp"
+        app:noEmpty="true"
+        app:normalTextColor="@color/gray_600"
+        app:normalTextSize="14sp"
+        app:selectedTextColor="@color/colorPrimary"
+        app:selectedTextSize="24sp"
+        app:unitHight="50dp" />
+
+</LinearLayout>

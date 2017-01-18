@@ -1,0 +1,37 @@
+<resources>
+
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="WheelView">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="maskHight" format="dimension" />
+        <attr name="noEmpty" format="boolean" />
+        <attr name="isEnable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ItemScrollView">
+        <attr format="color" name="textColorNormal"/>
+        <attr format="dimension" name="textSizeNormal"/>
+        <attr format="dimension" name="textSizeSelected"/>
+        <attr format="color" name="textColorSelected"/>
+        <attr format="integer" name="offset"/>
+        <attr format="color" name="itemLineColor"/>
+    </declare-styleable>
+
+    <attr name="firstLineColor" format="color"/>
+    <attr name="secondLineColor" format="color"/>
+    <attr name="firstLineHeight" format="dimension"/>
+    <attr name="secondLineHeight" format="dimension"/>
+    <attr name="textSize" format="dimension"/>
+
+</resources>
